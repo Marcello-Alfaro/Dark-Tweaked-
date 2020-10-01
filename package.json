@@ -1,21 +1,29 @@
 {
-    "name": "Dark",
-    "displayName": "Dark+ (Tweaked)",
-    "description": "Dark+ Tweaked",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.49.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Dark+ (Tweaked)",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Dark+ (Tweaked)-color-theme.json"
-            }
-        ]
-    }
+  "name": "Dark-tweaked",
+  "displayName": "Dark+ (Tweaked)",
+  "description": "Dark+ Tweaked Theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.49.0"
+  },
+  "publisher": "Marshall",
+  "author": {
+    "name": "Marcello Alfaro"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Marcello-Alfaro/Dark-Tweaked-.git"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dark+ (Tweaked)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dark+ (Tweaked)-color-theme.json"
+      }
+    ]
+  }
 }
