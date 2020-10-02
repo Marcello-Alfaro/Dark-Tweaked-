@@ -2,7 +2,7 @@
   "name": "Dark-tweaked",
   "displayName": "Dark+ (Tweaked)",
   "description": "Dark+ Tweaked Theme",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "engines": {
     "vscode": "^1.49.0"
   },
@@ -26,5 +26,5 @@
       }
     ]
   },
-  "icon": "assets/images/dark_tweaked.png"
+  "icon": "assets/images/icon.png"
 }
