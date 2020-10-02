@@ -488,7 +488,10 @@
       }
     },
     {
-      "scope": ["variable.other.object.js"],
+      "scope": [
+        "variable.other.object.js",
+        "variable.other.constant.object.js"
+      ],
       "settings": {
         "foreground": "#569CD6"
       }
