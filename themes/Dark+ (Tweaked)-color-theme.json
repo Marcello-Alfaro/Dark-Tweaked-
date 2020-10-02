@@ -471,6 +471,12 @@
       }
     },
     {
+      "scope": ["variable.other.object.js"],
+      "settings": {
+        "foreground": "#569CD6"
+      }
+    },
+    {
       "scope": [
         "keyword.type.cs",
         "storage.type.cs",
