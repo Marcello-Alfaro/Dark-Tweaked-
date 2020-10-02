@@ -88,11 +88,6 @@
         "meta.tag.sgml.html",
         "meta.tag.sgml.doctype.html",
         "meta.tag.sgml.html punctuation.definition.tag.html",
-        "meta.structure.dictionary.json",
-        "punctuation.definition.array.begin.json",
-        "punctuation.definition.array.end.json",
-        "punctuation.separator.array.json",
-        "punctuation.terminator",
         "punctuation.definition.string.begin.markdown",
         "punctuation.definition.string.end.markdown",
         "punctuation.definition.metadata.markdown",
@@ -102,6 +97,34 @@
       ],
       "settings": {
         "foreground": "#505050"
+      }
+    },
+    {
+      "scope": [
+        "meta.property-list.scss",
+        "punctuation.terminator.rule.css",
+        "punctuation.terminator.rule.scss",
+        "punctuation.separator.key-value.css",
+        "punctuation.separator.list.comma.css",
+        "punctuation.section.property-list.begin.bracket.curly",
+        "punctuation.section.property-list.end.bracket.curly",
+        "punctuation.section.media.begin.bracket.curly",
+        "punctuation.section.media.end.bracket.curly",
+        "punctuation.section.keyframes.begin.bracket.curly.scss",
+        "punctuation.section.keyframes.end.bracket.curly.scss",
+        "source.css.scss meta.at-rule.keyframes.scss punctuation.section.keyframes.begin.scss",
+        "source.css.scss meta.at-rule.keyframes.scss punctuation.section.keyframes.end.scss",
+        "punctuation.section.supports.begin.bracket.curly",
+        "punctuation.section.supports.end.bracket.curly",
+        "meta.structure.dictionary.json",
+        "punctuation.definition.array.begin.json",
+        "punctuation.definition.array.end.json",
+        "punctuation.separator.array.json",
+        "punctuation.terminator.statement.js",
+        "punctuation.terminator"
+      ],
+      "settings": {
+        "foreground": "#dfe6e9"
       }
     },
     {
@@ -285,12 +308,6 @@
       "scope": ["comment.block.c", "punctuation.terminator.statement.c"],
       "settings": {
         "foreground": "#505050"
-      }
-    },
-    {
-      "scope": ["punctuation.terminator.statement.js"],
-      "settings": {
-        "foreground": "#fff"
       }
     },
     {
@@ -534,28 +551,6 @@
       ],
       "settings": {
         "foreground": "#c586c0"
-      }
-    },
-    {
-      "scope": [
-        "meta.property-list.scss",
-        "punctuation.terminator.rule.css",
-        "punctuation.terminator.rule.scss",
-        "punctuation.separator.key-value.css",
-        "punctuation.separator.list.comma.css",
-        "punctuation.section.property-list.begin.bracket.curly",
-        "punctuation.section.property-list.end.bracket.curly",
-        "punctuation.section.media.begin.bracket.curly",
-        "punctuation.section.media.end.bracket.curly",
-        "punctuation.section.keyframes.begin.bracket.curly.scss",
-        "punctuation.section.keyframes.end.bracket.curly.scss",
-        "source.css.scss meta.at-rule.keyframes.scss punctuation.section.keyframes.begin.scss",
-        "source.css.scss meta.at-rule.keyframes.scss punctuation.section.keyframes.end.scss",
-        "punctuation.section.supports.begin.bracket.curly",
-        "punctuation.section.supports.end.bracket.curly"
-      ],
-      "settings": {
-        "foreground": "#fff"
       }
     },
     {
